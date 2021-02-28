@@ -26,7 +26,7 @@ public class Topic_02_Xpath_Css_Part_2 {
 		driver.findElement(By.xpath("//div[@class='footer']//a[@title='My Account']")).click();
 	}
 
-//
+
 	@AfterClass
 	public void afterClass() {
 	driver.quit();
